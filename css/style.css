@@ -11,6 +11,10 @@
     margin: 3rem auto;
 }
 
+button {
+    font-size: 1rem;
+}
+
 .btn{
     padding: 1rem 2rem;
     background-color: #FD841F;
@@ -37,6 +41,11 @@ header .container {
     align-items: center;
     justify-content: space-between;
     margin-top: 0;
+}
+
+header .container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
 }
 
 header .container .btn {
