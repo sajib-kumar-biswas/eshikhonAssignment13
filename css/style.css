@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+.container {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #FD841F;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 1rem;
+    color: white;
+}
+
+.btn:hover {
+    color: #FD841F;
+    background-color: white;
+    border: 1px solid #FD841F;
+}
+
+img {
+    width: 100%;
+}
+
+header .container {
+    background-color: white;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+header .container .btn {
+    width: 15%;
+}
+
+header .container .logo {
+    color: #FD841F;
+}
+
+header .container .menu {
+    display: flex;  
+}
+
+header .container .menu li {
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+/* end of header section */
+
+/* start of profile section */
+
+section.profile .container {
+    display: flex;
+}
+
+section.profile .container .imgContainer {
+    height: 25rem;
+    flex: 1;
+    padding: 2rem;
+}
+
+section.profile .container .imgContainer img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+section.profile .container .info {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.profile .container .info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+section.profile .container .info .hire {
+    width: 30%;
+}
+
+section.profile .container .info .hire:hover {
+    box-shadow: 0 0 1rem #FD841F;
+}
+
+/* end of profile section */
+
+/* start of blogs secton */
+section.blogs .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.blogs .container .blog {
+    box-sizing: border-box;
+    flex: 25%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.blogs .container .blog img {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+section.blogs .container .blog h3 {
+    color: #FD841F;
+}
+
+section.blogs .container .blog p {
+    text-align: justify;
+    line-height: 1.2;
+}
+
+section.blogs .container .blog button {
+    width: 40%;
+    height: 2.5rem;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FD841F;
+    border-radius: 25px;
+    color: white;
+}
+
+section.blogs .container .blog button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #FD841F;
+    border: 1px solid #FD841F;
+}
+
+/* end of blogs section */
+
+/* start of gallery section */
+
+section.gallery .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.gallery .container .image {
+    flex: 20%;
+    box-sizing: border-box;
+    padding: 2rem 1rem; 
+}
+
+section.gallery .container .image img {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* end of gallery section */
+
+/* start of footer section */
+section.footer .top {
+    display: flex;
+}
+
+section.footer .top h2 {
+    color: #FD841F;
+    margin-bottom: 2rem;
+}
+
+section.footer .top p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+section.footer .top li {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+section.footer .top  .about{
+    flex: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+section.footer .top .category{
+    flex: 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+section.footer .top .links{
+    flex: 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+section.footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.footer .bottom .socials {
+    display: flex;
+}
+
+section.footer .bottom .socials i {
+    box-sizing: border-box;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    background-color: #FD841F;
+    color: white;
+    border-radius: 50%;
+}
+
+section.footer .bottom .socials i:hover {
+    background-color: white;
+    color:#FD841F;
+    border: 1px solid #FD841F;
+}
+
+section.footer .bottom p {
+    font-size: 1.2rem;
+}
+
+section.footer .bottom span {
+    font-weight: 700;
+}
