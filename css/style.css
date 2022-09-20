@@ -117,10 +117,16 @@ section.profile .container .info p {
 
 section.profile .container .info .hire {
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
 }
 
 section.profile .container .info .hire:hover {
     box-shadow: 0 0 1rem #FD841F;
+    color: #FD841F;
 }
 
 /* end of profile section */
