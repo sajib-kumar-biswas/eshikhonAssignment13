@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 80%;
     margin: 3rem auto;
@@ -65,6 +69,18 @@ header .container .menu li {
     font-size: 1.2rem;
 }
 
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #FD841F;
+}
+a:active {
+    color: black;
+}
 /* end of header section */
 
 /* start of profile section */
@@ -253,4 +269,10 @@ section.footer .bottom p {
 
 section.footer .bottom span {
     font-weight: 700;
+}
+
+section.footer hr {
+    background-color: #FD841F;
+    height: 2px;
+    margin: 2rem 0;
 }
